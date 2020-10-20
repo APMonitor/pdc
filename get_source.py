@@ -53,7 +53,7 @@ for i in range(len(tbl)):
         pass
     os.chdir(mod)
 
-    f = open('README.md','w')
+    f = open('README.md',wmode)
     f.write('## Module ' + str(tbl['Class'][i]) + ' in Process Dynamics and Control\n')
     f.write('- [Course Overview](https://apmonitor.com/pdc)\n')
     f.write('- [Course Schedule](https://apmonitor.com/pdc/index.php/Main/CourseSchedule)\n')    
