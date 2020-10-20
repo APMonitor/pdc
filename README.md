@@ -1,3 +1,6 @@
-# PDC
+# Process Dynamics and Control
 
-Process Dynamics and Control repository for IPython Notebooks. See https://apmonitor.com/pdc for full course material.
+Source code for the [Process Dynamics and Control Course](https://apmonitor.com/pdc). The archive is organized by learning module from the [course schedule](https://apmonitor.com/pdc/index.php/Main/CourseSchedule) with source code by Topic, Quiz, Assignment, and Temperature Control Lab activity.
+
+![PDC Course Overview](https://apmonitor.com/pdc/uploads/Main/pdc_overview.png)
+
