@@ -24,7 +24,8 @@ def get_file(page_name='ArduinoControl'):
         open(pn, 'wb').write(r.content)
         sz = os.path.getsize(pn)
         with open(pn) as f:
-            if 'GoogleAnalyticsObject' in f.read():
+            # detect no additional source blocks
+            if 'gtag.js' in f.read():
                 n = i-1
                 f.close()
                 os.remove(pn)
