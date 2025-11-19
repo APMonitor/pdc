@@ -48,7 +48,7 @@ def data_worker(shared_dict, stop_evt, lock_obj, use_hardware: bool):
     lab = None
     try:
         TCLab = tclab.setup(connected=use_hardware) if use_hardware else tclab.setup(
-            connected=False, speedup=10
+            connected=False, speedup=5
         )
         lab = TCLab()  # open serial/emulator
 
