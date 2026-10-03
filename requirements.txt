@@ -1,0 +1,25 @@
+# Core numerical and plotting libraries used by the course examples
+scipy<1.12  # Retains scipy.misc.derivative used in older examples
+numpy<2.0.0 # prevent deprecation warnings
+matplotlib
+pandas
+
+# Modeling, control, and TCLab examples
+gekko
+simple-pid
+tclab
+uncertainties
+
+# Notebook and interactive examples
+ipython
+ipywidgets
+sympy
+
+# Streamlit apps
+streamlit
+altair
+
+# Repository source retrieval utility (get_source.py)
+requests
+beautifulsoup4
+lxml
