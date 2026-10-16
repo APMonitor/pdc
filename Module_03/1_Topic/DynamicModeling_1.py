@@ -28,7 +28,7 @@ z = np.zeros(101)
 for i in range(100):
     valve = u[i+1]
     y = odeint(tank,Level0,[0,0.1],args=(c,valve))
-    Level0 = y[-1] # take the last point
+    Level0 = y[-1, 0] # take the last point
     z[i+1] = Level0 # store the level for plotting
 
 # plot results
